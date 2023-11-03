@@ -1,0 +1,41 @@
+puska={"piktogram":"gyulekony,mergezo,maro,robbano",
+    "kemcso":"skumavka",
+    "fozopohar":"kadicka",
+    "lombik":"banka",
+    "tolcser":"lievik",
+    "merohenger":"odmerny valec",
+    "orauveg":"hodinove sklicko",
+    "valasztotolcser":"oddelovaci lievik",
+    "kemcso":"skumavka",
+    "fozopohar":"kadicka",
+    "lombik":"banka",
+    "tolcser":"lievik",
+    "merohenger":"odmerny valec",
+    "orauveg":"hodinove sklicko",
+    "valasztotolcser":"oddelovaci lievik",
+    "huto":"chladnic",
+    "dor.tor.":"trecia mieska s roztieradlom",
+    "borszeszego":"liehovy kahan",
+    "folyadekuveg":"reagencna flasa",
+    "poruveg":"prachovnica",
+    "porc. kanal":"porcelanova lyzicka",
+    "krist. csesze":"odparovacia miska",
+    "allvany":"stojan",
+    "vasharomlab":"trojnozka",
+    "kemcsofogo":"drziak na skumavku",
+    "gazego":"plynovy kahan",
+    "kemcsoallvany":"stojan na skumavky",
+    "vegyt.any.":"ciste latky",
+    "keverekek":"zmesi",
+    "elemek":"prvky",
+    "vegyuletek":"zluceniny",
+    "rendszer":"sustava",
+    "oldatok":"roztoky",
+    "oldoszer":"rozpustadlo",
+    }
+def alg():
+    while 1:
+        k=input("kerdezz:     ")
+        if k in puska.keys():
+            print (puska[k])
+alg()

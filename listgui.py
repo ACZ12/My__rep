@@ -1,0 +1,30 @@
+from tkinter import *
+root=Tk()
+root.geometry("{}x{}+0+0".format(root.winfo_screenwidth(),root.winfo_screenheight()))
+
+def add():
+    cb=Checkbutton(frame,text=(e.get(),e2.get()))
+    cb.pack(side=TOP)
+    
+frame=Frame(root)
+frame2=Frame(root) 
+frame3=Frame(frame2)
+frame4=Frame(frame2)
+frame5=Frame(frame2)
+e=Entry(frame3,text="tárgy")
+e2=Entry(frame4,text="mennyiség")
+b=Button(frame5,text="Hozzáadás",command=add)
+l=Label(frame3,text="Tárgy:  ")
+l2=Label(frame4,text="Mennyiség: ")
+e.pack(side=RIGHT)
+e2.pack(side=RIGHT)
+l.pack(side=RIGHT)
+l2.pack(side=RIGHT)
+b.pack()
+frame.pack()
+frame2.place(x=root.winfo_screenwidth()//2,y=root.winfo_screenheight()//2)
+frame3.pack(side=TOP)
+frame4.pack(side=TOP)
+frame5.pack(side=TOP)
+
+root.mainloop()
