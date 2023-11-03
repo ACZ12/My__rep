@@ -1,0 +1,21 @@
+import tkinter
+canvas=tkinter.Canvas(bg='white')
+canvas.pack()
+
+
+canvas.create_oval(10,10,110,110,fill='red',outline='gray',width=3)
+canvas.create_oval(20,20,100,100,fill='white',outline='red')
+canvas.create_text(60,60,text=80,font='Ariel 50 bold')
+canvas.create_rectangle(10,110,110,170,width=2)
+canvas.create_oval(30,125,50,145,fill='black')
+canvas.create_oval(40,115,70,145,fill='black')
+canvas.create_oval(55,120,80,145,fill='black')
+canvas.create_oval(73,128,90,145,fill='black')
+canvas.create_rectangle(20,140,100,145,fill='white',outline='white')
+canvas.create_rectangle(55,171,65,220,outline='grey',fill='grey')
+canvas.create_line(85,145,80,160,width=2)
+canvas.create_line(75,145,72,155,width=2)
+canvas.create_line(65,145,60,160,width=2)
+canvas.create_line(55,145,52,155,width=2)
+canvas.create_line(45,145,40,160,width=2)
+canvas.create_line(35,145,32,155,width=2)

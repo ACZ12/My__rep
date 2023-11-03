@@ -1,0 +1,27 @@
+import tkinter
+canvas=tkinter.Canvas()
+canvas.pack()
+
+e1=tkinter.Entry()
+e1.pack()
+
+def udvozles():
+    a=e1.get()
+    canvas.delete("all")
+    canvas.create_text(200,50,text="hello szia %s!" %a)
+
+
+e1=tkinter.Entry()
+e1.pack()
+
+def folytatas():
+    b=e1.get()
+    canvas.delete("all")
+    canvas.create_text(200,50,text="%s éves vagy.!" %int(b))
+
+
+
+b1=tkinter.Button(text="tovabb",command=udvozles)
+b1.pack()
+
+canvas.mainloop()
