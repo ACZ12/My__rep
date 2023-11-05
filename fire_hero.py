@@ -10,6 +10,7 @@ win = pygame.display.set_mode((SC_W, SC_H))
 pygame.display.set_caption("Fire Hero")
 clock = pygame.time.Clock()
 pygame.mouse.set_visible(False)
+pygame.draw.line(win,(255,255,255),(0,SC_H),(SC_W,SC_H))
 
 run = True
 game = True
