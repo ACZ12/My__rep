@@ -19,6 +19,8 @@ block_appearance_time = 0
 current_block = None
 score=0
 
+allitasok==["Bipi a cserkészet megalapítója."]
+
 class Player(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()

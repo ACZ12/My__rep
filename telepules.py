@@ -50,3 +50,4 @@ entry2.pack()
 
 canvas.bind('<Button-1>',rajzold_le)
 
+canvas.mainloop()

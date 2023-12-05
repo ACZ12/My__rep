@@ -1,0 +1,12 @@
+CLAY SOLDIERS MOD CONFIG.TXT VER 1.0
+----------------
+[ Item IDs ]
+#   disruptor = 6849
+#   soldierDoll = 6850
+#   horseDoll = 6851
+#   pegasusDoll = 6852
+#   brickDoll = 6853
+#   clayCookie = 6854
+#   turtleDoll = 6855
+#   shield = 6860
+#   studdedShield = 6861

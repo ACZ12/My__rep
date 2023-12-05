@@ -1,0 +1,14 @@
+{
+  "user":{
+    "name":"IToverloadmax",
+    "sessionid":"local"
+  },
+  "stats-change":[
+    {"1100":283},
+    {"1000":1},
+    {"1002":1},
+    {"1004":2},
+    {"1003":1}
+  ],
+  "checksum":"d054ef5f5e6bb1a639269884c5f2579b"
+}

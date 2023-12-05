@@ -1,5 +1,5 @@
 import tkinter
-canvas = tkinter.Canvas(width=500)
+canvas = tkinter.Canvas(width=800)
 canvas.pack()
 
 for i in range(1,7):
@@ -22,12 +22,7 @@ def kor(koordinatak):
 canvas.bind('<Button-3>',negyzet)
 canvas.bind('<Button-1>',kor)
 
-canvas.create_text(360,60,text='Tic Tac Toe',fill='green',font='Arial 15 bold')
-canvas.create_text(360,90,text='Az a játekos nyer,aki vizszintesen,')
-canvas.create_text(360,105,text='függőlegesen vagy átlósan 5 egyformát ')
-canvas.create_text(360,120,text='tesz egymás mellé.')
-canvas.create_text(360,135,text='A kört a bal egérgombbal,')
-canvas.create_text(360,150,text='a négyzetet a jobb egérgombbal')
-canvas.create_text(360,165,text='lehet kattintani.')
+canvas.create_text(600,60,text='Tic Tac Toe\nAz a játekos nyer,aki vizszintesen,\nfüggőlegesen vagy átlósan 5 egyformát \ntesz egymás mellé.\nA kört a bal egérgombbal,\na négyzetet a jobb egérgombbal\nlehet kattintani.',fill='green',font='Arial 15 bold')
+
 
 canvas.mainloop()

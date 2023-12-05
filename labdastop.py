@@ -1,5 +1,7 @@
 import tkinter
-canvas = tkinter.Canvas()
+root=tkinter.Tk()
+canvas=tkinter.Canvas(root,width=1000)
+import random
 canvas.pack()
 
 def labda():
@@ -21,3 +23,5 @@ x = 200
 y = 5
 labda()
 canvas.bind('<Button-1>',stop)
+
+root.mainloop()
