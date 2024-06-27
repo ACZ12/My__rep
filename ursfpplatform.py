@@ -8,7 +8,7 @@ Sky(texture="sky_default")
 player=FirstPersonController()
  
 blocks=[]
- 
+  
  
 player = Entity(
     model = 'cube' ,
