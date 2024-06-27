@@ -12,3 +12,4 @@ def alakzat(eger):
 
 
 canvas.bind_all('<Button-1>',alakzat)
+canvas.mainloop()
