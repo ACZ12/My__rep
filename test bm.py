@@ -2,7 +2,7 @@ import tkinter
 canvas=tkinter.Canvas()
 canvas.pack()
 
-
+ 
 
 e=tkinter.Entry()
 e.insert(1,"neved")
