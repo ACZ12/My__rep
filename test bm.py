@@ -27,3 +27,4 @@ b.pack()
 
 
 canvas.mainloop()
+#cigány
